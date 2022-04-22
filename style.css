@@ -1,0 +1,76 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    background: #e2dedb;
+    color: white;  
+    background:url(imag/encuesta.jpg) 0px 0px;
+    background-size:cover;
+    margin: 0;
+}
+
+#survey-form{
+    font-family: sans serif;
+    background: blue;
+    width: 60%;
+    
+}
+.box{
+    width:95%;
+    padding:5px;
+    margin: 10px;
+    border-radius: 0.25rem;
+    
+}
+#dropdown{
+    width:97%;
+    padding: 5px;
+    border-radius: 0.25rem;
+    margin: 10px;
+}
+#title {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    font-size: 20p
+}
+
+form{
+    background: #091236;
+    opacity: .8;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    border-radius: 0.5rem;
+    box-shadow:10px 10px 20px #000;
+}
+#description{
+    font-family:sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+.question{
+    margin: 10px;
+    font-size:20px;
+ }
+ .spam{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.2rem;
+ }
+ /*.label{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    font-size: 50px;
+ }*/
+ .espacio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+#box-submit{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 0.25rem;
+    width: 97%;
+    background: rgb(35, 94, 35);
+    cursor:pointer;
+}

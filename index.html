@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>encuestas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="block-form">
+    <header class="header">
+        <h1 id="title">Encuestas</h1>
+        <p id="description"> Agradecemos rellene la encuesta para mejorar nuestros servicios :</p>
+    </header>
+    <form action=""method="post"id="survey-form">
+        
+        </div > 
+        <div class="question">        
+            <p><label class="label"for="nombre">Nombre :</label></p>
+            <input class="box"type="text" id="nombre"name="nombre"placeholder="nombre completo"maxlength= "20" >
+        </div> 
+        <div class="question">  
+            <p><label for="email">Correo electrónico </label><spam id="spam">(opcional) :</spam></p>
+            <input class="box"type="email"id="email"name="email"placeholder="email">
+        </div> 
+        <div class="question">
+            <p> Tipo de usario : </p>
+            <select id="dropdown">
+                <option value="privado"> privado</option>
+                <option value="empresa">empresa</option>
+            </select>
+        <div class="question"> 
+            <p><label for="number">Número de inscripción :</label></p>
+            <input class="box"type="number"id="number"name="number"placeholder="número de inscripción"maxlength= "20"minlength= "6">
+        </div> 
+
+        <div class="question">
+            <p> Señale el grado de satisfacción con la información dada :</p> 
+                <input class="espacio" type="radio"id="muy satisfecho" name="valoración"value="muy satisfecho"checked>
+                <label for="muy satisfecho">Muy satisfecho</label> <br> 
+                
+                <input  class="espacio" type="radio"id="satisfecho"name="valoración"value="satisfecho"> 
+                <label for="satisfecho">Satisfecho</label><br>
+                
+                <input  class="espacio" type="radio" id="poco satisfecho"name="valoración"value="poco satisfecho">
+                <label for="poco satisfecho">Poco satisfecho</label><br>
+                
+                <input  class="espacio"type="radio"id="nada satisfecho"name="valoración"value="nada satisfecho">
+                <label for="nada satisfecho">Nada satisfecho</label><br>
+                         
+            
+            <p>Señale que redes sociales utiliza actualmente : </p>
+                <input  class="espacio"type="checkbox"id="redes"name="instagram"value="instagram">
+                <label for="redes">Instagram</label><br>
+                
+                <input  class="espacio"type="checkbox"id="redes"name="facebook"value="facebook">
+                <label for="redes">Facebook</label><br>
+                               
+                
+                <input  class="espacio" type="checkbox"id="redes"name="WhatsApp"value="WhatsApp">
+                <label for="redes">WhatsApp</label><br>
+              
+                <input  class="espacio" type="checkbox"id="redes"name="Linkedln"value="Linkedln">
+                <label for="redes">Linkedln</label><br>
+                
+                <input  class="espacio" type="checkbox"id="redes"name="otros"value="otros">
+                <label for="redes"> Otros .</label>
+                
+                <label  class="espacio" for="redes">Redes que actualmente utiliza : </label><br>
+                <input class="box"type="text"id="redes"name="otros"placeholder="escriba aquí"><br>
+                
+        </div>
+        <div class="question"> <br>
+            <label for="comentario">Comentario :</label> <br>
+            <textarea class="box"rows="10"cols="50" id="comentario" name="comentario" maxlength="200"placeholder="comentario maximo 200 caracteres"></textarea><br>
+        </div><br>
+        <div class="question">
+            <input id="box-submit"type= "submit" value="enviar formulario">          
+        </div>      
+    </form>     
+    
+</body>
+</html>
